@@ -1,0 +1,169 @@
+.tarjetas-todas {
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+
+@media (min-width: 661px) {
+    .tarjetas-todas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .tarjetas-todas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tarjetas-todas {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+.tarjeta {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 8px rgba(1, 1, 1, 0.1);
+
+}  
+.top-tarjeta {
+    text-align: left;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+} 
+.bandera {
+    text-align: left;
+    width: 40px;
+    margin-bottom: 60px;
+}
+.top-tarjeta h2 {
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+}   
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px 0;
+}
+.top-tarjeta-arabia {
+    background-color: #27a550;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-arabia h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+.top-tarjeta-argelia {
+    background-color: #00a067;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-argelia h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+.top-tarjeta-argentina {
+    background-color: #9cc9f2;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-argentina h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 0;
+    font-size: 14px;
+}
+.segunda{
+    color: #333333;      
+    font-size: 14px;
+    font-weight: 600;   
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.primera{
+    color: #AAB0B8;
+    font-size: 13px;
+    font-weight: 400;    
+    text-align: left;
+    padding-bottom: 5px; 
+    padding-left: 5px;
+}
+.top-tarjeta-australia {
+    background-color: #efb500;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-australia h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+.top-tarjeta-austria {
+    background-color: #ed3d32;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-austria h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+.top-tarjeta-brasil {
+    background-color: #ffcf25;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-brasil h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
+.top-tarjeta-belgica {
+    background-color: #880029;
+    text-align: left;
+    padding: 20px;
+} 
+.top-tarjeta-belgica h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 400;    
+    font-size: 32px;
+} 
